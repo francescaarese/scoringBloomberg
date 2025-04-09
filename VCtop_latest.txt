@@ -1,6 +1,7 @@
+Investors
 2150
 8VC
-A* Capital
+A Capital
 Accel
 ACME Capital
 Advancit Capital
@@ -11,20 +12,20 @@ Amadeus Capital Partners
 Andreessen Horowitz
 Antler
 Apeiron Investment Group
-Apollo Global Management
+Apollo Global Management (NYS: APO)
 Atlas Impact Partners
 Atomico
 B Capital
 Bain Capital
-Balderton
+Balderton Capital
 Baseline Ventures
 Battery Ventures
 Benchmark
 Bessemer Venture Partners
-Blackstone
+Blackstone (NYS: BX)
 Blossom Capital
 Blue Pool Capital
-BOND
+Bond
 Canaan Partners
 Cendana Capital
 Cherry Ventures
@@ -36,27 +37,26 @@ Cota Capital
 Cowboy Ventures
 Creandum
 CRV
-CVC Capital
+CVC Capital Partners (AMS: CVC)
 Dawn Capital
-Dimension Capital
 Dig Ventures
+Dimension.
 DN Capital
 DST Global
 Dynamo Ventures
-Earlybird
+Early Bird
 Eight Roads
 Entrée Capital
 Entrepreneur First
 EQT Ventures
-Eurazeo
+Eurazeo (PAR: RF)
 Expa
 Fabric Ventures
-Felicis Ventures
+Felicis
 Felix Capital
 ff Venture Capital
-Fifth Wall Ventures
+Fifth Wall
 Fifty Years
-First Mark Capital
 First Round Capital
 FirstMark Capital
 FJ Labs
@@ -70,66 +70,66 @@ Generation Investment Management
 Giant Ventures
 GIC
 Greycroft
-Greylock Partners
+Greylock
 GSR Ventures
 GV
 Headline
 Hedosophia
-Henkel dx Ventures
+Henkel Ventures
 Highland Europe
 Hoxton Ventures
 HV Capital
 ICONIQ Capital
+ICONIQ Growth
 Index Ventures
 Industry Ventures
-Initialized Capital
-Insight Venture Partners
+Initialized Capital Management
+Insight Partners
 Intel Capital
 IQ Capital
-J. Rothschild Capital Management
+J Rothschild Capital Management Limited
 K5 Global
 Kima Ventures
 Kindred Capital
-Kinnevik
-KKR
+Kinnevik (STO: KINV A)
+Kkr
 Kleiner Perkins
 L Catterton
 La Famiglia
 Left Lane Capital
 Lendable
-Lerer Hippeau Ventures
+Lerer Hippeau
 Lightspeed Venture Partners
-LionTree LLC
-LocalGlobe
+LionTree
+Local Globe
 Lowercarbon Capital
 Lux Capital
 M12
 M13
 March Capital
 Menlo Ventures
-Microsoft Ventures
 Miroma Group
 Miroma Ventures
-Morphais VC
+Morphais
 Mouro Capital
-Mubadala
-New Enterprise Associates (NEA)
+Mubadala Capital
+New Enterprise Associates (UK)
 New Wave
 Next47
 NFX
-Northzone
+Northzone Ventures
 Norwest Venture Partners
 Notion Capital
-Novator Partners LLP
+Novator Partners
 Obvious Ventures
 Octopus Ventures
 One Investment Management
-Pact VC
-Pale Blue Dot
+PactVC
+Pale blue dot
 Partech
 Peak XV Partners
-Pear VC
-Planet A Ventures
+Pear (California)
+Planet A
 Planet First Partners
 Point Nine Capital
 Presight Capital
@@ -142,13 +142,13 @@ Redstone Capital
 Revolution
 Ribbit Capital
 Riverwood Capital
-RRE
+RRE Ventures
 Salesforce Ventures
 Sapphire Ventures
 Searchlight Capital
 Seedcamp
 Sequoia
-Seraphim Capital
+Seraphim Space
 Shine Capital
 Slow Ventures
 SoftBank Investment Advisers
@@ -163,9 +163,9 @@ TA Ventures
 Target Global
 TCV
 Teachers' Venture Growth
-TechStars
+Techstars
 Temasek
-Tencent
+Tencent (Paipai, Wanggou & Yixun)
 The Raine Group
 Thiel Capital
 Third Kind Ventures
@@ -175,10 +175,10 @@ Torch Capital
 Union Square Ventures
 UTA Ventures
 Valor Equity Partners
-Venrex
+Venrex Investment Management
 Venrock
 Verlinvest
-Viking Global
+Viking Global Investors
 Village Global
 Vision Ridge Partners
 Visionaries Club
