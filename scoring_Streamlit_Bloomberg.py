@@ -316,7 +316,7 @@ if st.button("Process Data"):
         st.download_button(
             label="Download Updated Data",
             data=output,
-            file_name="company_scores.xlsx",
+            file_name="Bloomberg_scoring.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
     else:
