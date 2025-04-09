@@ -260,8 +260,7 @@ def calculate_overall_score(row, weights):
     total_score = 0
     total_weight = 0
     for key in weights:
-        if key in row:
-        # if key in row and pd.notna(row[key]):
+        if key in row and pd.notna(row[key]):
             total_score += row[key] * weights[key]
             total_weight += weights[key]
         else:
@@ -322,4 +321,3 @@ if st.button("Process Data"):
         )
     else:
         st.warning("Please upload both the company data file and the Top VCs file.")
-
