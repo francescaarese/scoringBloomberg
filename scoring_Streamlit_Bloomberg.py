@@ -243,15 +243,28 @@ def score_emerging_and_verticals(company):
 #     total_score = sum(row[key] * weights[key] for key in weights)
 #     return total_score
 
+# def calculate_overall_score(row, weights):
+#     total_score = 0
+#     for key in weights:
+#         if key in row:
+#             total_score += row[key] * weights[key]
+#         else:
+#             st.warning(f"Missing score column: '{key}' — skipping it in calculation.")
+#     return total_score
+
+# deals with missing values and calculates weighted average
 def calculate_overall_score(row, weights):
-    total_score = 0
+    weighted_sum = 0
+    total_weight = 0
+
     for key in weights:
         if key in row:
-            total_score += row[key] * weights[key]
+            weighted_sum += row[key] * weights[key]
+            total_weight += weights[key]
         else:
             st.warning(f"Missing score column: '{key}' — skipping it in calculation.")
-    return total_score
 
+    return weighted_sum / total_weight if total_weight != 0 else 0
 
 # Integration in Streamlit processing pipeline
 # Process data
