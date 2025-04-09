@@ -91,14 +91,17 @@ def add_growth_column(df, starting_year):
 
 
 
-# Scoring function for Top VCs
+# Scoring function for Top VCs 0 takes into account spaces etc...
+
 def score_vc(company):
     active_investors = company['Active Investors'].split(',') if pd.notna(company['Active Investors']) else []
     past_investors = company['Former Investors'].split(',') if pd.notna(company['Former Investors']) else []
-    all_investors = set(active_investors + past_investors)
-    count = sum(vc in all_investors for vc in TOP_VCS)
-    return 10 if count > 1 else 7 if count == 1 else 0
+    all_investors = {inv.strip().lower() for inv in active_investors + past_investors}
 
+    top_vcs_normalized = {vc.strip().lower() for vc in TOP_VCS}
+    matches = all_investors.intersection(top_vcs_normalized)
+
+    return 10 if len(matches) > 1 else 7 if len(matches) == 1 else 0
 
 
 def score_funding_valuation(company):
@@ -254,17 +257,15 @@ def score_emerging_and_verticals(company):
 
 # deals with missing values and calculates weighted average
 def calculate_overall_score(row, weights):
-    weighted_sum = 0
+    total_score = 0
     total_weight = 0
-
     for key in weights:
-        if key in row:
-            weighted_sum += row[key] * weights[key]
+        if key in row and pd.notna(row[key]):
+            total_score += row[key] * weights[key]
             total_weight += weights[key]
         else:
             st.warning(f"Missing score column: '{key}' — skipping it in calculation.")
-
-    return weighted_sum / total_weight if total_weight != 0 else 0
+    return total_score / total_weight if total_weight > 0 else 0
 
 # Integration in Streamlit processing pipeline
 # Process data
