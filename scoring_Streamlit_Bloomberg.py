@@ -44,14 +44,14 @@ uploaded_file = st.file_uploader("Upload Company Data Excel File", type=["xlsx"]
 # Sidebar for weight adjustments
 st.sidebar.header("Adjust Weights")
 weights = {
-    'VC Score': st.sidebar.slider("VC Score Weight", 0.0, 1.0, 0.14, 0.01),
-    'Funding Valuation Score': st.sidebar.slider("Funding Valuation Score Weight", 0.0, 1.0, 0.14, 0.01),
-    'Raised Score': st.sidebar.slider("Raised Score Weight", 0.0, 1.0, 0.14, 0.01),
+    'VC Score': st.sidebar.slider("VC Score Weight", 0.0, 1.0, 0.15, 0.01),
+    'Funding Valuation Score': st.sidebar.slider("Funding Valuation Score Weight", 0.0, 1.0, 0.3, 0.01),
+    'Raised Score': st.sidebar.slider("Raised Score Weight", 0.0, 1.0, 0.2, 0.01),
     # 'Recent Financing Score': st.sidebar.slider("Recent Financing Score Weight", 0.0, 1.0, 0.1, 0.01),
-    'Company Growth Score': st.sidebar.slider("Company Growth Score Weight", 0.0, 1.0, 0.14, 0.01),
-    'Emerging and Verticals Score': st.sidebar.slider("Emerging and Verticals Score Weight", 0.0, 1.0, 0.14, 0.01),
-  'Innovation ChatGPT Score': st.sidebar.slider("Innovation ChatGPT Score Weight", 0.0, 1.0, 0.14, 0.01),
-    'Media Outreach ChatGPT Score': st.sidebar.slider("Media Outreach ChatGPT Score Weight", 0.0, 1.0, 0.14, 0.01),
+    'Company Growth Score': st.sidebar.slider("Company Growth Score Weight", 0.0, 1.0, 0.1, 0.01),
+    'Emerging and Verticals Score': st.sidebar.slider("Emerging and Verticals Score Weight", 0.0, 1.0, 0.1, 0.01),
+  'Innovation ChatGPT Score': st.sidebar.slider("Innovation ChatGPT Score Weight", 0.0, 1.0, 0.1, 0.01),
+    'Media Outreach ChatGPT Score': st.sidebar.slider("Media Outreach ChatGPT Score Weight", 0.0, 1.0, 0.1, 0.01),
 }
 
 
@@ -239,8 +239,17 @@ def score_emerging_and_verticals(company):
     return 10 if emerging_space_score or verticals_score else 0
 
 
+# def calculate_overall_score(row, weights):
+#     total_score = sum(row[key] * weights[key] for key in weights)
+#     return total_score
+
 def calculate_overall_score(row, weights):
-    total_score = sum(row[key] * weights[key] for key in weights)
+    total_score = 0
+    for key in weights:
+        if key in row:
+            total_score += row[key] * weights[key]
+        else:
+            st.warning(f"Missing score column: '{key}' — skipping it in calculation.")
     return total_score
 
 
@@ -297,3 +306,4 @@ if st.button("Process Data"):
         )
     else:
         st.warning("Please upload both the company data file and the Top VCs file.")
+
