@@ -268,7 +268,8 @@ if st.button("Process Data"):
         
         # Fill other missing values
         df['Total Raised'] = df['Total Raised'].fillna(df['Last Known Valuation'] / 4)
-        df = df.dropna(subset=["Last Known Valuation"])
+        # df = df.dropna(subset=["Last Known Valuation"])
+        df['Last Known Valuation'] = df['Last Known Valuation'].fillna(df['Total Raised']*4)
         
         # Apply scoring functions
         df['VC Score'] = df.apply(score_vc, axis=1)
@@ -306,4 +307,3 @@ if st.button("Process Data"):
         )
     else:
         st.warning("Please upload both the company data file and the Top VCs file.")
-
