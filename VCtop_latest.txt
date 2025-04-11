@@ -1,190 +1,125 @@
-Investors
-2150
 8VC
-A Capital
-Accel
+A* Capital
 ACME Capital
-Advancit Capital
-Advent International
-AENU
-Aglaé Ventures
-Amadeus Capital Partners
+AI-NC
+Accel
+Altimeter Capital
 Andreessen Horowitz
-Antler
-Apeiron Investment Group
-Apollo Global Management (NYS: APO)
-Atlas Impact Partners
 Atomico
 B Capital
+BOND
 Bain Capital
 Balderton Capital
-Baseline Ventures
 Battery Ventures
-Benchmark
+Benchmark Capital
 Bessemer Venture Partners
-Blackstone (NYS: BX)
-Blossom Capital
-Blue Pool Capital
-Bond
+Bling Capital
+Box
+CRV
 Canaan Partners
+Capital Today
 Cendana Capital
-Cherry Ventures
-Citi Ventures
 Coatue
-Collaborative Fund
-Connect Ventures
+Conviction
 Cota Capital
 Cowboy Ventures
 Creandum
-CRV
-CVC Capital Partners (AMS: CVC)
-Dawn Capital
-Dig Ventures
-Dimension.
-DN Capital
+DCM
+DCVC
 DST Global
-Dynamo Ventures
-Early Bird
-Eight Roads
-Entrée Capital
-Entrepreneur First
+DST Investment Management
+Data Collective
+Dawn Capital
+Dimension Capital
+EQ.XYZ
+EQT Group
+EQT Growth
 EQT Ventures
-Eurazeo (PAR: RF)
-Expa
-Fabric Ventures
-Felicis
-Felix Capital
-ff Venture Capital
-Fifth Wall
+Embracer Group
+FJ Labs
+Felicis Ventures
 Fifty Years
 First Round Capital
 FirstMark Capital
-FJ Labs
+Floodgate
 Forerunner Ventures
+Founder Collective
 Founders Fund
-Frontline Ventures
-G9 Ventures
+Future Shape LLC
+GGV Capital
+GV
 General Atlantic
 General Catalyst
 Generation Investment Management
-Giant Ventures
-GIC
-Greycroft
-Greylock
-GSR Ventures
-GV
-Headline
-Hedosophia
-Henkel Ventures
-Highland Europe
-Hoxton Ventures
-HV Capital
+Gigafund
+Google Ventures
+Gradient
+Greenoaks Capital
+Greylock Partners
+Headline Ventures
 ICONIQ Capital
 ICONIQ Growth
+IVP
 Index Ventures
 Industry Ventures
-Initialized Capital Management
 Insight Partners
 Intel Capital
-IQ Capital
-J Rothschild Capital Management Limited
-K5 Global
-Kima Ventures
-Kindred Capital
-Kinnevik (STO: KINV A)
-Kkr
+Investment AB Kinnevik
+KRH Partners
+Khosla Ventures
 Kleiner Perkins
-L Catterton
-La Famiglia
-Left Lane Capital
-Lendable
-Lerer Hippeau
+Lakestar
 Lightspeed Venture Partners
-LionTree
-Local Globe
-Lowercarbon Capital
+Lightspeed Ventures
+Lobby Capital
 Lux Capital
-M12
 M13
 March Capital
+Matrix Partners
+Mayfield Fund
 Menlo Ventures
-Miroma Group
-Miroma Ventures
-Morphais
-Mouro Capital
-Mubadala Capital
-New Enterprise Associates (UK)
-New Wave
-Next47
-NFX
-Northzone Ventures
+NEA
+NFX Capital
+New Enterprise Associates (NEA)
+NextSequence
+Northzone
 Norwest Venture Partners
 Notion Capital
-Novator Partners
 Obvious Ventures
-Octopus Ventures
 One Investment Management
-PactVC
-Pale blue dot
 Partech
 Peak XV Partners
-Pear (California)
-Planet A
-Planet First Partners
 Point Nine Capital
-Presight Capital
-Primary Venture Partners
-Project A Ventures
-Prosus Ventures
-QED
+QED Investors
+RRE Ventures
 Redpoint Ventures
-Redstone Capital
+Renegade Partners
 Revolution
 Ribbit Capital
-Riverwood Capital
-RRE Ventures
 Salesforce Ventures
+Sanabil
 Sapphire Ventures
-Searchlight Capital
 Seedcamp
-Sequoia
-Seraphim Space
-Shine Capital
+Sequoia Capital
+Sinovation Ventures
 Slow Ventures
+SoftBank
 SoftBank Investment Advisers
-SOSV
+SoftBank Vision Fund
 Sound Ventures
 Spark Capital
-Speedinvest
-Stride.VC
 Sutter Hill Ventures
-Sweet Capital
-TA Ventures
-Target Global
 TCV
-Teachers' Venture Growth
-Techstars
-Temasek
-Tencent (Paipai, Wanggou & Yixun)
-The Raine Group
+TechStars
 Thiel Capital
 Third Kind Ventures
 Thrive Capital
 Tiger Global Management
 Torch Capital
-Union Square Ventures
 UTA Ventures
+Union Square Ventures
+Upfront Ventures
 Valor Equity Partners
-Venrex Investment Management
-Venrock
-Verlinvest
-Viking Global Investors
-Village Global
-Vision Ridge Partners
-Visionaries Club
-Vitruvian Partners
-Walden Catalyst
 Warburg Pincus
-White Star Capital
 Y Combinator
 ZhenFund
