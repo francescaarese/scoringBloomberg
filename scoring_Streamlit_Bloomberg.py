@@ -53,7 +53,7 @@ weights = {
     'Emerging and Verticals Score': st.sidebar.slider("Emerging and Verticals Score Weight", 0.0, 1.0, 0.05, 0.01),
   'Innovation ChatGPT Score': st.sidebar.slider("Innovation ChatGPT Score Weight", 0.0, 1.0, 0.15, 0.01),
     'Media Outreach ChatGPT Score': st.sidebar.slider("Media Outreach ChatGPT Score Weight", 0.0, 1.0, 0.15, 0.01),
-  'Judges Score': st.sidebar.slider("IJudges Score Weight", 0.0, 1.0, 0.05, 0.01),
+  'Judges Score': st.sidebar.slider("Judges Score Weight", 0.0, 1.0, 0.05, 0.01),
 }
 
 
@@ -318,7 +318,7 @@ if st.button("Process Data"):
         st.download_button(
             label="Download Updated Data",
             data=output,
-            file_name="company_scores.xlsx",
+            file_name="bloomberg_scoring.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
     else:
