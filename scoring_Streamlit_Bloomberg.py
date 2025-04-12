@@ -87,7 +87,7 @@ def add_growth_column(df, starting_year):
 
     # Parse employee history and calculate growth
     df['Parsed Data'] = df['Employee History'].apply(parse_employee_data)
-    df['growth to 2024'] = df['Parsed Data'].apply(lambda x: calculate_growth(x, starting_year))
+    df['growth to 2025'] = df['Parsed Data'].apply(lambda x: calculate_growth(x, starting_year))
     return df
 
 
@@ -276,7 +276,7 @@ if st.button("Process Data"):
          
         # Add growth column
         if 'Employee History' in df.columns:
-            df = add_growth_column(df,2024)
+            df = add_growth_column(df,2025)
         else:
             st.error("The input file must contain an 'Employee History' column.")
             st.stop()
