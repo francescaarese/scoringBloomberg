@@ -11,6 +11,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 import io
 
+
 # Title of the app
 st.title("Bloomberg Scoring")
 
@@ -35,7 +36,7 @@ def load_top_vcs(file_path="VCtop_latest.txt"):
 # Load Top VCs
 TOP_VCS = load_top_vcs()
 
-
+growth_year = datetime.now().year
 
 # File Uploads
 uploaded_file = st.file_uploader("Upload Company Data Excel File", type=["xlsx"])
@@ -180,7 +181,7 @@ def score_raised(company):
 def evaluate_company_growth(row):
     current_year = datetime.now().year
     years_in_operation = current_year - row['Year Founded']
-    growth = row['growth to 2024']
+    growth = row.get(f'growth to {growth_year}', None)
     if years_in_operation >= 4:
         # Companies 4 years or older
         if growth >= 1000:
@@ -276,7 +277,7 @@ if st.button("Process Data"):
          
         # Add growth column
         if 'Employee History' in df.columns:
-            df = add_growth_column(df,2025)
+            df = add_growth_column(df, growth_year)
         else:
             st.error("The input file must contain an 'Employee History' column.")
             st.stop()
