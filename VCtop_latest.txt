@@ -32,10 +32,12 @@ Data Collective
 Dawn Capital
 Dimension Capital
 EQ.XYZ
+EQT
 EQT Group
 EQT Growth
 EQT Ventures
 Embracer Group
+Entrepreneur First
 FJ Labs
 Felicis Ventures
 Fifty Years
@@ -56,6 +58,7 @@ Google Ventures
 Gradient
 Greenoaks Capital
 Greylock Partners
+Hedosophia
 Headline Ventures
 ICONIQ Capital
 ICONIQ Growth
@@ -87,6 +90,7 @@ Norwest Venture Partners
 Notion Capital
 Obvious Ventures
 One Investment Management
+Oxford Science Enterprises
 Partech
 Peak XV Partners
 Point Nine Capital
@@ -98,6 +102,8 @@ Revolution
 Ribbit Capital
 Salesforce Ventures
 Sanabil
+Sanofi
+Sofinnova Partners
 Sapphire Ventures
 Seedcamp
 Sequoia Capital
