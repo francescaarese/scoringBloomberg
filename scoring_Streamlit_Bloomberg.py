@@ -126,30 +126,30 @@ def score_funding_valuation(company):
     else:
         return 0
 
-# def score_raised(company):
-#     raised = company['Total Raised']
-#     if raised >= 100:
-#         return 10
-#     elif raised > 90:
-#         return 9
-#     elif raised > 80:
-#         return 8
-#     elif raised > 70:
-#         return 7
-#     elif raised > 70:
-#         return 6
-#     elif raised > 50:
-#         return 5
-#     elif raised > 40:
-#         return 4
-#     elif raised > 30:
-#         return 3
-#     elif raised > 20:
-#         return 2
-#     elif raised > 10:
-#         return 1
-#     else:
-#         return 0
+def score_raised(company):
+    raised = company['Total Raised']
+    if raised >= 100:
+        return 10
+    elif raised > 90:
+        return 9
+    elif raised > 80:
+        return 8
+    elif raised > 70:
+        return 7
+    elif raised > 70:
+        return 6
+    elif raised > 50:
+        return 5
+    elif raised > 40:
+        return 4
+    elif raised > 30:
+        return 3
+    elif raised > 20:
+        return 2
+    elif raised > 10:
+        return 1
+    else:
+        return 0
 
 
 
@@ -289,7 +289,7 @@ if st.button("Process Data"):
         # Apply scoring functions
         df['VC Score'] = df.apply(score_vc, axis=1)
         df['Funding Valuation Score'] = df.apply(score_funding_valuation, axis=1)
-        # df['Raised Score'] = df.apply(score_raised, axis=1)
+        df['Raised Score'] = df.apply(score_raised, axis=1)
         # df['Recent Financing Score'] = df.apply(lambda x: recent_financing(x, '2024-11-18'), axis=1)
         # df['HQ Location Score'] = df.apply(check_hq_location, axis=1)
         df['Company Growth Score'] = df.apply(evaluate_company_growth, axis=1)
