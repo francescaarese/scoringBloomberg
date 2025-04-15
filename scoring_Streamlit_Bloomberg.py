@@ -51,9 +51,9 @@ weights = {
     # 'Recent Financing Score': st.sidebar.slider("Recent Financing Score Weight", 0.0, 1.0, 0.1, 0.01),
     'Company Growth Score': st.sidebar.slider("Company Growth Score Weight", 0.0, 1.0, 0.20, 0.01),
     'Emerging and Verticals Score': st.sidebar.slider("Emerging and Verticals Score Weight", 0.0, 1.0, 0.1, 0.01),
-  # 'Innovation ChatGPT Score': st.sidebar.slider("Innovation ChatGPT Score Weight", 0.0, 1.0, 0.15, 0.01),
-   # 'Media Outreach ChatGPT Score': st.sidebar.slider("Media Outreach ChatGPT Score Weight", 0.0, 1.0, 0.15, 0.01),
- # 'Judges Score': st.sidebar.slider("Judges Score Weight", 0.0, 1.0, 0.05, 0.01),
+   'Innovation ChatGPT Score': st.sidebar.slider("Innovation ChatGPT Score Weight", 0.0, 1.0, 0.15, 0.01),
+    'Media Outreach ChatGPT Score': st.sidebar.slider("Media Outreach ChatGPT Score Weight", 0.0, 1.0, 0.15, 0.01),
+  'Judges Score': st.sidebar.slider("Judges Score Weight", 0.0, 1.0, 0.05, 0.01),
 }
 
 
